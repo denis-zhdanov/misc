@@ -10,5 +10,5 @@
       SET <update-details>
       WHERE <filter>
     )
-    SELECT * from <table> WHERE <filter>
+    SELECT * from <table> WHERE <filter>;
     ```

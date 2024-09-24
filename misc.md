@@ -1,4 +1,4 @@
-* intellij[#intellij]
+* [intellij](#intellij)
 * [kafka](#kafka)
 * [postgres](#postgres)
 

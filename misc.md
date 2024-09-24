@@ -1,5 +1,10 @@
+* intellij[#intellij]
 * [kafka](#kafka)
 * [postgres](#postgres)
+
+## IntelliJ
+
+* restore 'changes' VCS tab - `IDE Settings | Version Control | Commit | Use non-modal commit interface`
 
 ## Kafka
 

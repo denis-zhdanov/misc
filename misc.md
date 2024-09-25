@@ -1,6 +1,7 @@
 * [intellij](#intellij)
 * [kafka](#kafka)
 * [postgres](#postgres)
+* [spring-security](#spring-security)
 
 ## IntelliJ
 
@@ -23,4 +24,18 @@
       WHERE <filter>
     )
     SELECT * from <table> WHERE <filter>;
+    ```
+## Spring Security
+
+* disable security:
+    ```
+    @Configuration
+    class SecurityConfig {
+        @Bean
+        fun securityFilterChain(http: HttpSecurity): SecurityFilterChain {
+            return http.authorizeHttpRequests {
+                it.anyRequest().permitAll()
+            }.csrf { it.disable() }.build()
+        }
+    }
     ```

@@ -1,7 +1,12 @@
+* [cockroachdb](#cockroachdb)
 * [intellij](#intellij)
 * [kafka](#kafka)
 * [postgres](#postgres)
 * [spring-security](#spring-security)
+
+## CockroachDB
+
+* use `org.postgresql:r2dbc-postgresql` r2dbc driver instead of `io.r2dbc:r2dbc-postgresql`
 
 ## IntelliJ
 

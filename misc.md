@@ -1,4 +1,5 @@
 * [cockroachdb](#cockroachdb)
+* [firebase](#firebase)
 * [intellij](#intellij)
 * [kafka](#kafka)
 * [postgres](#postgres)
@@ -7,6 +8,11 @@
 ## CockroachDB
 
 * use `org.postgresql:r2dbc-postgresql` r2dbc driver instead of `io.r2dbc:r2dbc-postgresql`
+
+## Firebase
+
+* default password from debug android keystore is `android`
+* it was necessary to register the both SHA-1 and SHA-256 certificate fingerprints in firebase project in order to be able to sign in via google
 
 ## IntelliJ
 

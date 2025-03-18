@@ -3,6 +3,7 @@
 * [intellij](#intellij)
 * [kafka](#kafka)
 * [postgres](#postgres)
+* [spring-di](#spring-di)
 * [spring-security](#spring-security)
 
 ## CockroachDB
@@ -36,6 +37,9 @@
     )
     SELECT * from <table> WHERE <filter>;
     ```
+## Spring DI
+* scan classpath components - org.springframework.context.annotation.ComponentScanAnnotationParser.parse()
+
 ## Spring Security
 
 * disable security:

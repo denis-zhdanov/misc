@@ -39,6 +39,7 @@
     ```
 ## Spring DI
 * scan classpath components - org.springframework.context.annotation.ComponentScanAnnotationParser.parse()
+* preinstantiate singletones - org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons()
 
 ## Spring Security
 
